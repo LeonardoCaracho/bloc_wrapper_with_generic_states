@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'blocs/general_bloc/general_bloc.dart';
+import 'blocs/bloc.dart';
 
 class BlocWrapper<TBloc extends Bloc<dynamic, dynamic>, TSuccessState> extends StatelessWidget {
   final Widget Function(BuildContext context)? loading;
